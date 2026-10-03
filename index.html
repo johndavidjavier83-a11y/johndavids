@@ -1,0 +1,470 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="John David Javier Academic Portfolio">
+
+    <title>JD Academic Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- LOADING SCREEN -->
+<div id="loader">
+    <div class="loader-circle"></div>
+    <h2>JD PORTFOLIO</h2>
+    <p>Loading academic works...</p>
+</div>
+
+<!-- NAVIGATION -->
+<header class="navbar">
+
+    <div class="logo">
+        <span>JD</span> PORTFOLIO
+    </div>
+
+    <button class="menu-btn" onclick="toggleMenu()">
+        ☰
+    </button>
+
+    <nav id="navMenu">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#works">Academic Works</a>
+    </nav>
+
+</header>
+
+
+<!-- HOME -->
+<section id="home" class="hero">
+
+    <div class="hero-content">
+
+        <div class="hero-text">
+
+            <p class="small-title">
+                MY ACADEMIC PORTFOLIO
+            </p>
+
+            <h1>
+                Hello, I'm
+                <span>John David Javier</span>
+            </h1>
+
+            <p class="hero-description">
+                Welcome to my academic portfolio where I showcase
+                my quizzes, examinations, activities, projects,
+                and other academic works.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#works" class="primary-btn">
+                    View My Works
+                </a>
+
+                <a href="#about" class="secondary-btn">
+                    About Me
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="profile-container">
+
+            <div class="profile-glow"></div>
+
+            <!-- CHANGE profile.jpg TO YOUR PHOTO -->
+            <img
+                src="images/profile.jpg"
+                alt="John David Javier"
+                class="profile-image">
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ABOUT -->
+<section id="about" class="section">
+
+    <div class="section-title">
+
+        <p>GET TO KNOW ME</p>
+
+        <h2>About <span>Me</span></h2>
+
+    </div>
+
+
+    <div class="about-container">
+
+        <div class="about-card">
+
+            <h3>Who I Am</h3>
+
+            <p>
+                I am John David Javier, a Computer Science student
+                interested in technology, programming, web development,
+                and learning new skills.
+            </p>
+
+            <p>
+                This portfolio contains selected academic works that
+                represent my learning, activities, projects, quizzes,
+                and examinations throughout my studies.
+            </p>
+
+        </div>
+
+
+        <div class="info-card">
+
+            <div class="info-item">
+                <span>NAME</span>
+                <strong>John David Javier</strong>
+            </div>
+
+            <div class="info-item">
+                <span>PROGRAM</span>
+                <strong>Bachelor of Science in Computer Science</strong>
+            </div>
+
+            <div class="info-item">
+                <span>PORTFOLIO</span>
+                <strong>Academic Works</strong>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ACADEMIC WORKS -->
+<section id="works" class="section works-section">
+
+    <div class="section-title">
+
+        <p>MY COLLECTION</p>
+
+        <h2>Academic <span>Works</span></h2>
+
+        <small>
+            Browse my academic activities and requirements.
+        </small>
+
+    </div>
+
+
+    <div class="category-grid">
+
+
+        <!-- QUIZ -->
+        <article class="category-card">
+
+            <div class="category-icon">
+                📝
+            </div>
+
+            <h3>Quiz</h3>
+
+            <p>
+                Short quizzes and assessments.
+            </p>
+
+            <div class="file-list">
+
+                <!-- ADD MORE ITEMS BY COPYING THIS BLOCK -->
+
+                <div class="file-item">
+
+                    <div>
+                        <strong>Quiz 1</strong>
+                        <small>PDF Document</small>
+                    </div>
+
+                    <a
+                        href="files/quiz/quiz-1.pdf"
+                        target="_blank"
+                        class="file-btn">
+                        View / Download
+                    </a>
+
+                </div>
+
+
+                <div class="file-item">
+
+                    <div>
+                        <strong>Quiz Image 1</strong>
+                        <small>PNG Image</small>
+                    </div>
+
+                    <a
+                        href="images/quiz/quiz-1.png"
+                        target="_blank"
+                        class="file-btn">
+                        View / Download
+                    </a>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <!-- LONG QUIZ -->
+        <article class="category-card">
+
+            <div class="category-icon">
+                📚
+            </div>
+
+            <h3>Long Quiz</h3>
+
+            <p>
+                Long quizzes and written assessments.
+            </p>
+
+            <div class="file-list">
+
+                <div class="file-item">
+
+                    <div>
+                        <strong>Long Quiz 1</strong>
+                        <small>PDF Document</small>
+                    </div>
+
+                    <a
+                        href="files/long-quiz/long-quiz-1.pdf"
+                        target="_blank"
+                        class="file-btn">
+                        View / Download
+                    </a>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <!-- MIDTERMS -->
+        <article class="category-card">
+
+            <div class="category-icon">
+                📖
+            </div>
+
+            <h3>Midterms</h3>
+
+            <p>
+                Midterm examinations and requirements.
+            </p>
+
+            <div class="file-list">
+
+                <div class="file-item">
+
+                    <div>
+                        <strong>Midterm Exam</strong>
+                        <small>PDF Document</small>
+                    </div>
+
+                    <a
+                        href="files/midterms/midterm-1.pdf"
+                        target="_blank"
+                        class="file-btn">
+                        View / Download
+                    </a>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <!-- FINALS -->
+        <article class="category-card">
+
+            <div class="category-icon">
+                🎓
+            </div>
+
+            <h3>Finals</h3>
+
+            <p>
+                Final examinations and assessments.
+            </p>
+
+            <div class="file-list">
+
+                <div class="file-item">
+
+                    <div>
+                        <strong>Final Exam</strong>
+                        <small>PDF Document</small>
+                    </div>
+
+                    <a
+                        href="files/finals/final-1.pdf"
+                        target="_blank"
+                        class="file-btn">
+                        View / Download
+                    </a>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <!-- ACTIVITIES -->
+        <article class="category-card">
+
+            <div class="category-icon">
+                🎯
+            </div>
+
+            <h3>Activities</h3>
+
+            <p>
+                Classroom activities and assignments.
+            </p>
+
+            <div class="file-list">
+
+                <div class="file-item">
+
+                    <div>
+                        <strong>Activity 1</strong>
+                        <small>PDF Document</small>
+                    </div>
+
+                    <a
+                        href="files/activities/activity-1.pdf"
+                        target="_blank"
+                        class="file-btn">
+                        View / Download
+                    </a>
+
+                </div>
+
+
+                <div class="file-item">
+
+                    <div>
+                        <strong>Activity Image</strong>
+                        <small>JPG Image</small>
+                    </div>
+
+                    <a
+                        href="images/activities/activity-1.jpg"
+                        target="_blank"
+                        class="file-btn">
+                        View / Download
+                    </a>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <!-- PROJECTS -->
+        <article class="category-card">
+
+            <div class="category-icon">
+                
+            </div>
+
+            <h3>Projects</h3>
+
+            <p>
+                Programming projects and major academic outputs.
+            </p>
+
+            <div class="file-list">
+
+                <div class="file-item">
+
+                    <div>
+                        <strong>Project 1</strong>
+                        <small>PDF Document</small>
+                    </div>
+
+                    <a
+                        href="files/projects/project-1.pdf"
+                        target="_blank"
+                        class="file-btn">
+                        View / Download
+                    </a>
+
+                </div>
+
+
+                <div class="file-item">
+
+                    <div>
+                        <strong>Project Screenshot</strong>
+                        <small>PNG Image</small>
+                    </div>
+
+                    <a
+                        href="images/projects/project-1.png"
+                        target="_blank"
+                        class="file-btn">
+                        View / Download
+                    </a>
+
+                </div>
+
+            </div>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+<!-- FOOTER -->
+<footer>
+
+    <div class="footer-logo">
+        JD PORTFOLIO
+    </div>
+
+    <p>
+        Academic Portfolio of John David Javier
+    </p>
+
+    <p class="copyright">
+        © 2026 John David Javier. All Rights Reserved.
+    </p>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
+```
